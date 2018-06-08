@@ -31,6 +31,7 @@
 
         <TextView
             android:id="@+id/textView"
+            android:textAppearance="@style/TextAppearance.Shrine.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
@@ -48,6 +49,7 @@
         <!-- Snippet from "Add text fields" section goes here. -->
         <android.support.design.widget.TextInputLayout
             android:id="@+id/textInputLayout"
+            style="@style/Widget.Shrine.TextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
@@ -70,6 +72,7 @@
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/password_text_input"
+            style="@style/Widget.Shrine.TextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
@@ -94,6 +97,7 @@
 
         <!-- Snippet from "Add buttons" section goes here. -->
         <android.support.design.button.MaterialButton
+            style="@style/Widget.Shrine.Button"
             android:id="@+id/next_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -106,7 +110,7 @@
 
 
         <android.support.design.button.MaterialButton
-            style="@style/Widget.MaterialComponents.Button.TextButton"
+            style="@style/Widget.Shrine.Button.TextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"

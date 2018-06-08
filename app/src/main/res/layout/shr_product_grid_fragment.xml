@@ -25,6 +25,7 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:elevation="0dp"
         android:fitsSystemWindows="true">
 
         <android.support.v7.widget.Toolbar
@@ -40,9 +41,8 @@
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/productGridBackgroundColor"
-        android:paddingStart="@dimen/shr_product_grid_spacing"
-        android:paddingEnd="@dimen/shr_product_grid_spacing">
+        android:elevation="6dp"
+        android:background="@color/productGridBackgroundColor">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycler_view"
